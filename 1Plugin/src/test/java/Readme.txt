@@ -1,0 +1,1 @@
+Please download and install this jar file in your Fiji app Plugin directory.
