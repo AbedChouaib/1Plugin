@@ -10,7 +10,7 @@ However, we had an issue with the latest driver versions installed (512.77-whql 
 
 ## Installation instructions: 
 
-To install and run this plugin, the user must install all related software using the links. 
+To install and run this plugin, users are required to download the following resources. 
 
 > **Fiji**: https://imagej.net/software/fiji/downloads  
 
