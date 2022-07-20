@@ -14,7 +14,7 @@ To install and run this plugin, the user must install all related software using
 
 > **Fiji**: https://imagej.net/software/fiji/downloads  
 
-> **1Plugin**:  https://github.com/AbedChouaib/1Plugin 
+> **1Plugin**:  https://github.com/AbedChouaib/1Plugin/tree/main/1Plugin/src/test/java 
 
 > **NanoJ-SRRF**: https://github.com/HenriquesLab/NanoJ-SRRF 
 
