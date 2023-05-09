@@ -2,7 +2,7 @@
 
 ## Overview:
 
-The 1plugin is a Java-written software that utilizes Fiji app, this plugin uses GPU-accelerated computation to speed up intensive operations.For optimal performance, we recommend NVidia GPUs. AMD Radeon series may function, but are unstable. Intel GPUs do not work with this plugin. 
+The 1plugin is a Java-written software that utilizes Fiji app, this plugin uses GPU-accelerated computation to speed up intensive operations.For optimal performance, we recommend NVidia GPUs. AMD Radeon series may function normaly we didn't test them yet!
 
 We ran GPU/driver compatibility tests and concluded that NVidia GPUs produced before 2017 are compatible with 1plugin. However, GPU driver version-related issues may still occur. Furthermore, we tested newer GPUs produced after 2017. NVidia Quadro RTX 6000 (launched August 2018) GPU running on a computer equipped with a Windows 10 pro operating system worked well after changing the GPU driver to an older version, namely 431.02-whql June 10, 2019 (versions from 419.17 until 431.02 would work). When it comes to Intel GPUs 1 Plugin works normal if the OpenCL openGL compatibility pack was installed. 
 
