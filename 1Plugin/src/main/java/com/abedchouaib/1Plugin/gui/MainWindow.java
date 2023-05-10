@@ -146,9 +146,11 @@ public class MainWindow implements PlugIn
 	public static void main(String[] args) throws Exception
 	{
 		Class<?> clazz = MainWindow.class;
-		java.net.URL url = clazz.getProtectionDomain().getCodeSource().getLocation();
-		File file = new File(url.toURI());
-		System.setProperty("plugins.dir", file.getAbsolutePath());
+// 		java.net.URL url = clazz.getProtectionDomain().getCodeSource().getLocation();
+// 		File file = new File(url.toURI());
+// 		System.setProperty("plugins.dir", file.getAbsolutePath());
+		System.setProperty("plugins.dir", "ImageJ Fiji plugins directory path");
+		System.setProperty("ij.dir", "ImageJ Fiji App directory path");
 		new ImageJ();
 		EventQueue.invokeLater(new Runnable()
 		{
